@@ -778,7 +778,151 @@
 }
 
 
+.filter-buttons button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+}
+
+.filter-buttons .active {
+  background: #0d6efd;
+  color: #fff;
+}
+.service-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.service-card {
+  box-shadow: 0 0 10px #ddd;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
 
+		row {
+			flex-wrap: wrap;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+
+		}
+		header {
+  				position: sticky;
+  				top: 0;
+  				z-index: 1000;
+			}
+        .wa-chat-box-poweredby{ 
+            display: none;
+        }
+		.footer-mobile {
+				display: none;
+			}
+		
+        @media screen and (max-width: 768px ) {
+			.footer-mobile {
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				display: block;
+				right: 0;
+				background: #fff;
+				z-index: 998;
+				width: 100%;
+				height: 55px;
+				box-shadow: 0 -5px 5px -3px #ccc;
+				border-top: 1px solid #dedede;
+			}
+			.footer-mobile {
+				display: block;
+			}
+			.footer-mobile a {
+				display: inline-block;
+				padding: 6px 9px;
+				background: 0 0;
+				color: #000;
+				text-decoration: none;
+				width: 50%;
+				font-weight: 600;
+				border-radius: 4px;
+				font-size: 14px;
+				letter-spacing: 0;
+				text-transform: uppercase;
+				margin: 8px 0 0 0;
+				text-align: center;
+			}
+            #wa-widget-send-button {
+                margin: 0 0 3px 0 !important;
+                right: 10px;
+                background: transparent;
+                box-shadow: none;
+            }
+            #wa-widget-send-button .wa-messenger-svg-whatsapp {
+                fill: #4dc247;
+                width: 35px;
+                margin-right: 5px;
+            }
+            #wa-widget-send-button div{
+                color: #000 !important;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                text-transform: capitalize;
+                font-size: 15px !important;
+                position: relative;
+                top: 1px;
+            }
+			.card:hover {
+  				transform: translateY(-8px);
+  				transition: 0.3s;
+			}
+			html {
+  				scroll-behavior: smooth;
+			}
+        }
+
+
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.btn-box {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.btn {
+  flex: 1;
+  font-size: 14px;
+}
+
+/* MOBILE FIX */
+@media (max-width: 576px) {
+  .service-card img {
+    height: 180px;
+  }
+}
 
 
