@@ -68,6 +68,7 @@ function renderServices(filter = "all") {
 function setupFilters() {
   const buttons = document.querySelectorAll(".filter-btn");
 
+
   buttons.forEach(btn => {
     btn.addEventListener("click", function () {
 
