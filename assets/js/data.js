@@ -4,7 +4,7 @@ const servicesData = [
   {
     category: "ac",
     title: "Split AC Service",
-    image: "assets/images/we/split-ac-service.jpg",
+    image: "assets/images/we/split-ac-service.png",
     points: [
       "Deep cleaning",
       "Coil & filter wash",
@@ -16,7 +16,7 @@ const servicesData = [
   {
     category: "ac",
     title: "Window AC Service",
-    image: "assets/images/we/window-ac-service.jpg",
+    image: "assets/images/we/window-ac-service.png",
     points: [
       "Full cleaning",
       "Filter wash",
@@ -30,7 +30,7 @@ const servicesData = [
   {
     category: "wm",
     title: "Washing Machine Service",
-    image: "assets/images/we/washing-machine-service.jpg",
+    image: "assets/images/we/washing-machine-service.png",
     points: [
       "Drum cleaning",
       "Filter cleaning",
@@ -42,7 +42,7 @@ const servicesData = [
   {
     category: "wm",
     title: "Washing Machine Repair",
-    image: "assets/images/we/washing-machine-repair.jpg",
+    image: "assets/images/we/washing-machine-repair.png",
     points: [
       "Motor repair",
       "Drain fix",
@@ -56,7 +56,7 @@ const servicesData = [
   {
     category: "fridge",
     title: "Refrigerator Repair",
-    image: "assets/images/we/fridge-repair.jpg",
+    image: "assets/images/we/fridge-repair.png",
     points: [
       "Cooling fix",
       "Gas check",
@@ -68,7 +68,7 @@ const servicesData = [
   {
     category: "fridge",
     title: "Refrigerator Service",
-    image: "assets/images/we/fridge-service.jpg",
+    image: "assets/images/we/fridge-service.png",
     points: [
       "Coil cleaning",
       "Gas level check",
