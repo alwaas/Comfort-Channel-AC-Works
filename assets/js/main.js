@@ -1,5 +1,5 @@
 // PHONE CONFIG
-const phoneNumber = "9044355941";
+const phoneNumber = "1234567890";
 const countryCode = "+91";
 
 // SAFE CHECK DATA
